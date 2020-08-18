@@ -1,0 +1,22 @@
+[[redirects]]
+  from = "https://smallbets.co/*"
+  to = "https://danielvassallo.com/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://www.smallbets.co/*"
+  to = "https://danielvassallo.com/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://smallbets.netlify.com/*"
+  to = "https://danielvassallo.com/:splat"
+  status = 302
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
